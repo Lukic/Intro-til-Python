@@ -1,0 +1,12 @@
+#pip install requests
+
+import requests
+
+# Send en GET-forespørgsel til RandomUser API
+response = requests.get('https://randomuser.me/api/')
+
+# Konverter svardata til JSON-format
+user_data = response.json()
+
+# Udskriv hele JSON-objektet
+print(user_data)

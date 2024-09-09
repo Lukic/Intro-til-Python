@@ -1,0 +1,20 @@
+def greet(name):
+    print("Hej", name)
+
+greet("Peter")
+greet("Anna")
+
+"""
+def check_age(age):
+    if age >= 18:
+        return "Du er voksen"
+    else:
+        return "Du er ikke voksen endnu"
+
+# Brug funktionen
+message = check_age(20)
+print(message)
+
+message = check_age(15)
+print(message)
+"""

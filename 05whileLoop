@@ -1,0 +1,5 @@
+count = 0
+
+while count < 5:
+    print("Tæller:", count)
+    count += 1  # Øger variablen 'count' med 1

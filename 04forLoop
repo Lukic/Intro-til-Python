@@ -1,0 +1,18 @@
+fruits = ["æble", "banan", "kirsebær"]
+
+for fruit in fruits:
+    print(fruit)
+    
+    
+""" Step 2
+for i in range(5):
+    print(i)
+"""
+
+
+""" Step 3
+for i in range(10):
+    if i == 5:
+        break  # Stopper løkken når i er lig 5
+    print(i)
+"""
