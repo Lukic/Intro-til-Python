@@ -8,11 +8,14 @@ age = 40
 height = 1.80
 
 # Boolean type
-is_student = False
+isStudent = False
 
-height = "test"
+## Array
+
+accountType = ["Teacher","Student"]
 
 print("Navn:", name)
 print("Alder:", age)
 print("Højde:", height)
-print("Er studerende?", is_student)
+print("Er studerende?", isStudent)
+print("Type", accountType[1])
