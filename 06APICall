@@ -1,5 +1,4 @@
 #pip install requests
-
 import requests
 
 # Send en GET-forespørgsel til RandomUser API
@@ -10,3 +9,10 @@ user_data = response.json()
 
 # Udskriv hele JSON-objektet
 print(user_data)
+
+
+# Udskriv data
+user = user_data['results'][0]
+
+# Udskriv navn
+print(user['name']['first'], user['name']['last'])

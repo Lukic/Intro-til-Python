@@ -1,21 +1,17 @@
-# String type
+# String type : ""
 name = "Srdjan"
 
 # Integer type
-age = 40
+age = 41
 
-# Float type
-height = 1.80
+
+# Float type : kommaværdig
+height = 1.82;
 
 # Boolean type
-isStudent = False
+isOnline = True
 
 ## Array
+favoriteCarBrands = ["Volvo", "BMW", "Ford"]
 
-accountType = ["Teacher","Student"]
-
-print("Navn:", name)
-print("Alder:", age)
-print("Højde:", height)
-print("Er studerende?", isStudent)
-print("Type", accountType[1])
+print("Your name is:", name)

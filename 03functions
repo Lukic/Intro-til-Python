@@ -1,10 +1,13 @@
+"""
 def greet(name):
     print("Hej", name)
 
 greet("Peter")
 greet("Anna")
-
 """
+
+
+
 def check_age(age):
     if age >= 18:
         return "Du er voksen"
@@ -17,4 +20,3 @@ print(message)
 
 message = check_age(15)
 print(message)
-"""
